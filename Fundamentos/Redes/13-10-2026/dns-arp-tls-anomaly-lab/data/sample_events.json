@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "description": "Eventos totalmente sintéticos; no proceden de una red real.",
+    "generated_with_seed": 42,
+    "normal_event_count": 20,
+    "anomaly_count": 3
+  },
+  "expected_certs": {
+    "ejemplo.test": "c2df95aec19f0b66d70c6f61603e51fceeaed02100b5e1a3fcb491c946784ba2",
+    "www.ejemplo.test": "a23c7227cd7a3ceef025e257cd87206cdc87c3c6d20125a590d324e224c8e274",
+    "tienda.test": "7d62c0cde0e29a10b2d4755712efb33ccd744c359a2f116b39a0b37aff822cdd"
+  },
+  "events": [
+    {
+      "id": "dns-normal-1",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:01:00Z",
+      "query": "www.ejemplo.test",
+      "record_type": "A",
+      "ttl": 300
+    },
+    {
+      "id": "dns-normal-2",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:02:00Z",
+      "query": "mail.tienda.test",
+      "record_type": "A",
+      "ttl": 600
+    },
+    {
+      "id": "dns-normal-3",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:03:00Z",
+      "query": "api.ejemplo.test",
+      "record_type": "A",
+      "ttl": 120
+    },
+    {
+      "id": "dns-normal-4",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:04:00Z",
+      "query": "cdn.tienda.test",
+      "record_type": "A",
+      "ttl": 900
+    },
+    {
+      "id": "dns-normal-5",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:05:00Z",
+      "query": "intranet.ejemplo.test",
+      "record_type": "A",
+      "ttl": 300
+    },
+    {
+      "id": "dns-normal-6",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:06:00Z",
+      "query": "smtp.tienda.test",
+      "record_type": "A",
+      "ttl": 600
+    },
+    {
+      "id": "dns-normal-7",
+      "type": "DNS",
+      "timestamp": "2026-10-15T10:07:00Z",
+      "query": "docs.ejemplo.test",
+      "record_type": "A",
+      "ttl": 180
+    },
+    {
+      "id": "arp-normal-1",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:11:00Z",
+      "ip": "192.0.2.1",
+      "mac": "00:00:5e:00:53:01"
+    },
+    {
+      "id": "arp-normal-2",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:12:00Z",
+      "ip": "192.0.2.10",
+      "mac": "00:00:5e:00:53:10"
+    },
+    {
+      "id": "arp-normal-3",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:13:00Z",
+      "ip": "192.0.2.20",
+      "mac": "00:00:5e:00:53:20"
+    },
+    {
+      "id": "arp-normal-4",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:14:00Z",
+      "ip": "192.0.2.1",
+      "mac": "00:00:5e:00:53:01"
+    },
+    {
+      "id": "arp-normal-5",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:15:00Z",
+      "ip": "192.0.2.10",
+      "mac": "00:00:5e:00:53:10"
+    },
+    {
+      "id": "arp-normal-6",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:16:00Z",
+      "ip": "192.0.2.30",
+      "mac": "00:00:5e:00:53:30"
+    },
+    {
+      "id": "arp-normal-7",
+      "type": "ARP",
+      "timestamp": "2026-10-15T10:17:00Z",
+      "ip": "192.0.2.20",
+      "mac": "00:00:5e:00:53:20"
+    },
+    {
+      "id": "tls-normal-1",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:01:00Z",
+      "sni": "ejemplo.test",
+      "cert_sha256": "c2df95aec19f0b66d70c6f61603e51fceeaed02100b5e1a3fcb491c946784ba2",
+      "source": "proxy"
+    },
+    {
+      "id": "tls-normal-2",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:02:00Z",
+      "sni": "www.ejemplo.test",
+      "cert_sha256": "a23c7227cd7a3ceef025e257cd87206cdc87c3c6d20125a590d324e224c8e274",
+      "source": "proxy"
+    },
+    {
+      "id": "tls-normal-3",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:03:00Z",
+      "sni": "tienda.test",
+      "cert_sha256": "7d62c0cde0e29a10b2d4755712efb33ccd744c359a2f116b39a0b37aff822cdd",
+      "source": "proxy"
+    },
+    {
+      "id": "tls-normal-4",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:04:00Z",
+      "sni": "ejemplo.test",
+      "cert_sha256": "c2df95aec19f0b66d70c6f61603e51fceeaed02100b5e1a3fcb491c946784ba2",
+      "source": "proxy"
+    },
+    {
+      "id": "tls-normal-5",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:05:00Z",
+      "sni": "www.ejemplo.test",
+      "cert_sha256": "a23c7227cd7a3ceef025e257cd87206cdc87c3c6d20125a590d324e224c8e274",
+      "source": "proxy"
+    },
+    {
+      "id": "tls-normal-6",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:06:00Z",
+      "sni": "tienda.test",
+      "cert_sha256": "7d62c0cde0e29a10b2d4755712efb33ccd744c359a2f116b39a0b37aff822cdd",
+      "source": "proxy"
+    },
+    {
+      "id": "dns-anomaly-1",
+      "type": "DNS",
+      "timestamp": "2026-10-15T11:20:00Z",
+      "query": "hbrpoig8f1cbfno6b9m8.c2.test",
+      "record_type": "A",
+      "ttl": 60
+    },
+    {
+      "id": "arp-anomaly-1",
+      "type": "ARP",
+      "timestamp": "2026-10-15T11:21:00Z",
+      "ip": "192.0.2.1",
+      "mac": "00:00:5e:00:53:99"
+    },
+    {
+      "id": "tls-anomaly-1",
+      "type": "TLS",
+      "timestamp": "2026-10-15T11:22:00Z",
+      "sni": "ejemplo.test",
+      "cert_sha256": "083b834956a184803c601461ddd9567f29433797bd04c76a9f3b51c21f36a27f",
+      "source": "proxy"
+    }
+  ]
+}
