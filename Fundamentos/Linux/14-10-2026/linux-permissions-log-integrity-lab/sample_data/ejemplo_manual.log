@@ -1,0 +1,5 @@
+2026-10-18T10:00:00Z seq=1 user=alice action=login result=success source=192.0.2.10
+2026-10-18T10:00:05Z seq=2 user=bob action=login result=success source=192.0.2.11
+2026-10-18T10:01:10Z seq=4 user=carol action=login result=failure source=192.0.2.12
+2026-10-18T10:00:20Z seq=5 user=carol action=login result=success source=192.0.2.12
+2026-10-18T10:00:25Z seq=6 user=admin action=logout result=success source=192.0.2.20
