@@ -1,2 +1,0 @@
-Artefacto sintético para el laboratorio de integridad de A1.
-No contiene datos personales ni secretos.
