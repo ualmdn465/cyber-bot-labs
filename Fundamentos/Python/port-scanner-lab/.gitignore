@@ -1,4 +1,11 @@
+# Entorno y caché de Python
 .venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Ficheros generados al ejecutar
 scan_results.json
+report.json
+kev_cache.json
+*.tmp
